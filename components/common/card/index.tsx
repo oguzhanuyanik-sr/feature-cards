@@ -11,7 +11,7 @@ const Card = ({ index, title, text, img, color }: CardProps) => {
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.75 * (index + 1), type: 'spring' }}
-      className={`border-t-4 p-[30px] shadow-card w-full lg:max-w-[350px] lg:h-1/2 lg:mt-0 ${
+      className={`border-t-4 p-[30px] shadow-card w-full max-h-[250px] lg:max-w-[350px] lg:h-1/2 lg:mt-0 ${
         index ? 'mt-[25px]' : ''
       } ${borderColors[color as ColorType]}`}
     >
