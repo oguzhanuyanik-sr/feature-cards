@@ -1,14 +1,13 @@
+import { Metadata } from 'next';
 import Link from 'next/link';
 import React from 'react';
-
-type Props = {};
 
 export const metadata: Metadata = {
   title: '404 | Page not found! ',
   description: 'Oops... Something went wrong.',
 };
 
-const NotFound = (props: Props) => {
+const NotFound = () => {
   return (
     <div
       style={{

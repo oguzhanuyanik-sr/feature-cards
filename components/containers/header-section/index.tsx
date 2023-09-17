@@ -6,9 +6,9 @@ import { motion } from 'framer-motion';
 const HeaderSection = () => {
   return (
     <motion.header
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      transition={{ duration: 1 }}
+      initial={{ opacity: 0, y: -50 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1.5 }}
       className='text-center'
     >
       <h1 className='text-2xl lg:text-4xl font-extralight'>
