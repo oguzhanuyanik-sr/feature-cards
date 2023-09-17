@@ -16,7 +16,9 @@ const config: Config = {
       'dark-100': '#4D4F62',
     },
     fontFamily: {},
-    boxShadow: {},
+    boxShadow: {
+      card: '0px 15px 30px -11px rgba(131, 166, 210, 0.50);',
+    },
     backgroundImage: {},
     container: {
       center: true,
