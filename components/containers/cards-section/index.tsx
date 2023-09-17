@@ -2,11 +2,7 @@ import Card from '@/components/common/card';
 import React from 'react';
 import { cards } from '@/app/api/response.json';
 
-type Props = {};
-
-const cardStyles = ['', '', '', ''];
-
-const CardsSection = (props: Props) => {
+const CardsSection = () => {
   return (
     <section className='mt-[76px] lg:mt-16 lg:flex lg:h-full lg:gap-[30px]'>
       {cards.map((card, index) => {

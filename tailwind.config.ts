@@ -11,7 +11,7 @@ const config: Config = {
     colors: {
       'red-100': '#EA5454',
       'torque-100': '#44D3D2',
-      'orange-100': '##FCAE4A',
+      'orange-100': '#FCAE4A',
       'blue-100': '#549EF2',
       'dark-100': '#4D4F62',
     },

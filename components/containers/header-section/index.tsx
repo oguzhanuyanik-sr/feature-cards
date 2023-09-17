@@ -1,9 +1,7 @@
 import React from 'react';
 import { header } from '@/app/api/response.json';
 
-type Props = {};
-
-const HeaderSection = (props: Props) => {
+const HeaderSection = () => {
   return (
     <header className='text-center'>
       <h1 className='text-2xl lg:text-4xl font-extralight'>
